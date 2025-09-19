@@ -10,7 +10,7 @@ import datetime
 from PIL import Image, ImageDraw, ImageFont
    
 # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with the token you obtained from BotFather
-bot = TeleBot(os.getenv('tg_key'))
+bot = TeleBot(os.getenv('8375601762:AAHpBBwKIGpYHwwnED2WcFOToQhEFbm7gfo '))
 
 # Set the timezone to Nicosia, Cyprus (GMT+3)
 tz = pytz.timezone('Asia/Nicosia') 
