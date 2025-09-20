@@ -37,7 +37,7 @@ def create_reservations_table():
             num_people INTEGER NOT NULL,
             date TEXT NOT NULL,
             reservation_time TEXT NOT NULL,
-            notes TEXT,
+            notes TEXT
         )
     ''')
     db_connection.commit()
