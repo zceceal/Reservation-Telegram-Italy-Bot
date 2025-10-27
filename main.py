@@ -118,7 +118,7 @@ def generate_num_people_buttons():
 def send_panel(message):
     markup = types.InlineKeyboardMarkup()
     markup.add(
-        types.InlineKeyboardButton("🍴 Inizia una prenotazione", url="https://t.me/axel_fork_bot")
+        types.InlineKeyboardButton("🍴 Inizia una prenotazione", url="https://t.me/GoldenForkBookingsBot")
     )
     kwargs = {}
     if getattr(message, "message_thread_id", None):
