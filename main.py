@@ -72,7 +72,7 @@ def generate_main_buttons():
     markup = types.InlineKeyboardMarkup(row_width=2)
     markup.add(
         types.InlineKeyboardButton("🍴 Prenota", callback_data="reserve"),
-        types.InlineKeyboardButton("💬 Supporto", url="https://t.me/axelforks")
+        types.InlineKeyboardButton("💬 Supporto", url="https://t.me/GoldenForkBookingsBot")
     )
     return markup
 
